@@ -144,6 +144,7 @@ width: 100%;
     border-radius: 5%;
     padding: 8px;
     font-weight: 400;
+    z-index: 1;
     
 }
 .btn-box::before{
@@ -171,7 +172,7 @@ width: 100%;
     height: 100%;
     background-color: #081b29;
     transition: .5s;
-    z-index: 2;
+    z-index: -1;
     
 }
 .btn-box a:hover::before{
